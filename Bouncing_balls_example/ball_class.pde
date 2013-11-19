@@ -7,7 +7,7 @@ class Ball {
     loc = new PVector(random(width), random(height));
     vel = PVector.random2D();
     d = 30;
-    c = color(random(360), 100, 100);
+    c = color(random(150), 75, 150);
   }
 
   void display() {
@@ -15,6 +15,7 @@ class Ball {
     stroke(c);
     strokeWeight(4);
     ellipse(loc.x, loc.y, d, d);
+    text("BYE MIKE", width/2, height/2);
   }
 
   void move() {
