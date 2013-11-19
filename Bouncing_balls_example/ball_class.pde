@@ -15,7 +15,8 @@ class Ball {
     stroke(c);
     strokeWeight(4);
     ellipse(loc.x, loc.y, d, d);
-    text("BYE MIKE", width/2, height/2);
+    textSize(30);
+    text("Only during the Summer?", width/8, height/2);
   }
 
   void move() {
